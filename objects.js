@@ -625,6 +625,6 @@ let  votes = { John: "A", Alice: "B", Bob: "A", Mike: "A", Carol: "B" }
 
 let result=Object.values(votes).reduce((acc,curr)=>{acc[curr]=(acc[curr] ||0)+1;return acc},{})
 console.log(result);
-let finalresult=
+
 
 log()
