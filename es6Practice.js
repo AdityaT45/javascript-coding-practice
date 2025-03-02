@@ -150,27 +150,48 @@
 
 //🟢🟢  // Extract:     // - companyName   // - First employee's name & first skill    // - Second employee's role     // - City and pincode
 
-const company = {
-    companyName: "Tech Solutions",
-    employees: [
-      { id: 1, name: "Aditya", role: "Developer", skills: ["JavaScript", "React", "Node.js"] },
-      { id: 2, name: "Rohan", role: "Designer", skills: ["Photoshop", "Illustrator", "Figma"] }
-    ],
-    location: {
-      country: "India",
-      city: "Mumbai",
-      address: { street: "MG Road", pincode: 400001 }
-    }
-  };
+// const company = {
+//     companyName: "Tech Solutions",
+//     employees: [
+//       { id: 1, name: "Aditya", role: "Developer", skills: ["JavaScript", "React", "Node.js"] },
+//       { id: 2, name: "Rohan", role: "Designer", skills: ["Photoshop", "Illustrator", "Figma"] }
+//     ],
+//     location: {
+//       country: "India",
+//       city: "Mumbai",
+//       address: { street: "MG Road", pincode: 400001 }
+//     }
+//   };
   
-let {companyName,employees:[{name:e1name,skills:[emp1Skill]},{role:emp2roll}],location:{city,address:{pincode}}}=company
+// let {companyName,employees:[{name:e1name,skills:[emp1Skill]},{role:emp2roll}],location:{city,address:{pincode}}}=company
 
 
 
-console.log(companyName);  // "Tech Solutions"
-console.log(e1name);     // "Aditya"
-console.log(emp1Skill);    // "JavaScript"
-console.log(emp2roll);     // "Designer"
-console.log(city);         // "Mumbai"
-console.log(pincode); 
+// console.log(companyName);  // "Tech Solutions"
+// console.log(e1name);     // "Aditya"
+// console.log(emp1Skill);    // "JavaScript"
+// console.log(emp2roll);     // "Designer"
+// console.log(city);         // "Mumbai"
+// console.log(pincode); 
   
+
+
+
+
+//🟢🟢 Create a function that accepts a parameter but has a default value if none is provided.
+
+// function student(name,age=12){
+//     console.log(`name of student is ${name} and age is ${age}`);
+    
+// }
+
+// student("aditya")
+// student("ganesh",14)
+
+
+//🟢🟢 Use the spread operator to create a copy of an object
+
+// let obj1={name:"aditya",age:12}
+
+// let obj2={...obj1}
+// console.log(obj2);
